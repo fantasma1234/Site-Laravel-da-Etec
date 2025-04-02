@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Cursos</title>
     @vite('resources/css/app.css')
 </head>
 <body>
@@ -35,35 +35,60 @@
     </header>
 
     <section class="max-w-7xl m-auto">
-        <div class="flex items-center">
-            <h2 class="text-cyan-600 uppercase font-bold text-3xl">Contato</h2>
+        <div class="flex items-center gap-4">
+            <h2 class="text-cyan-600 uppercase font-bold text-3xl">Cursos</h2>
         </div>
         <div class="w-full h-[2px] bg-slate-950/20"></div>
-        <div class="flex justify-center items-center max-w-6xl m-auto flex-col  p-4 lg:flex-row rounded-2xl">
-            <img src="/img/email.jpg" alt="imagem" class="w-full">
-        </div>
-        <div class="flex justify-center items-center max-w-6xl m-auto flex-col  p-5 lg:flex-row rounded-2xl">
-            <form action="" class="w-full max-w-6xl border p-8 flex flex-col gap-4 bg-gray-300 rounded-2xl">
-                <div class="flex flex-col gap-2">
-                    <label for="" class="font-medium">Nome Completo</label>
-                    <input type="text" name="" id="" placeholder="Nome Completo" class="p-2 bg-white rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-10">
+            <div class="rounded-xl shadow-lg">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="/img/adm.jpg" alt="Imagem" class="w-full">
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3">Administração</h5>
+                    <p class="text-slate-600 text-lg mt-3">Curso Técnico - Modalidade Presencial</p>
                 </div>
-                <div class="flex flex-col gap-2">
-                    <label for="" class="font-medium">Email para contato</label>
-                    <input type="text" name="" id="" placeholder="Email" class="p-2 bg-white rounded-lg">
+            </div>
+            <!--  -->
+            <div class="rounded-xl shadow-lg">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="/img/ds.jfif" alt="Imagem" class="w-full">
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3 ">Desenvolvimento de Sistemas</h5>
+                    <p class="text-slate-600 text-lg mt-3">Curso Técnico - Modalidade Presencial</p>
                 </div>
-                <div class="flex flex-col gap-2">
-                    <label for="" class="font-medium">Assunto</label>
-                    <input type="text" name="" id="" placeholder="Assunto" class="p-2 bg-white rounded-lg">
+            </div>
+            <!--  -->
+            <div class="rounded-xl shadow-lg">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="/img/rh.jfif" alt="Imagem" class="w-full">
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3">Recurso Humanos</h5>
+                    <p class="text-slate-600 text-lg mt-3">Curso Técnico - Modalidade Presencial</p>
                 </div>
-                <div class="flex flex-col gap-2">
-                    <label for="" class="font-medium">Mensagem</label>
-                    <textarea name="" id="" placeholder="Digite sua Mensagem" class="h-48 bg-white rounded-lg"></textarea>
+            </div>
+            <!--  -->
+            <div class="rounded-xl shadow-lg">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="/img/sj.jpg" alt="Imagem" class="w-full">
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3">Serviços Jurídicos</h5>
+                    <p class="text-slate-600 text-lg mt-3">Curso Técnico - Modalidade Presencial</p>
                 </div>
-                <div class="flex">
-                    <input type="submit" value="Enviar" class="text-lg bg-blue-400 hover:bg-blue-700 py-2 px-7 rounded-lg text-white cursor-pointer mt-3 w-full">
+            </div>
+            <!--  -->
+            <div class="rounded-xl shadow-lg">
+                <div class="p-5 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                        <img src="/img/log.jfif" alt="Imagem" class="w-full">
+                    </div>
+                    <h5 class="text-2xl md:text-3xl font-medium mt-3">Logística</h5>
+                    <p class="text-slate-600 text-lg mt-3">Curso Técnico - Modalidade Presencial</p>
                 </div>
-            </form>
+            </div>
         </div>
     </section>
 

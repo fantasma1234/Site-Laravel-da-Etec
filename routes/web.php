@@ -1,19 +1,16 @@
 <?php
 
 use App\Http\Controllers\PrincipalController;
+use App\Http\Controllers\DepartamentosController;
+use App\Http\Controllers\CursosController;
 use App\Http\Controllers\ContatoController;
-use App\Http\Controllers\SobrenosController;
-use App\Http\Controllers\ProdutosController;
-use App\Http\Controllers\EntrarController;
 use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [PrincipalController::class, 'principal'])->name('site.index');
 
-Route::get('/sobrenos', [SobrenosController::class, 'sobrenos'])->name('site.sobrenos');
+Route::get('/cursos', [CursosController::class, 'cursos'])->name('site.cursos');
+
+Route::get('/departamentos', [DepartamentosController::class, 'departamentos'])->name('site.departamentos');
 
 Route::get('/contato', [ContatoController::class, 'contato'])->name('site.contato');
-
-Route::get('/produtos', [ProdutosController::class, 'produtos'])->name('site.produtos');
-
-Route::get('/entrar', [EntrarController::class, 'entrar'])->name('site.entrar');
