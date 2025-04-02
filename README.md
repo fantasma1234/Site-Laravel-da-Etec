@@ -66,6 +66,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Fazendo funcionar
-1 - digitar no terminal "composer install" (sem aspas)
-2 - digitar no terminal "cp .env.example .env" e "php artisan key:generate"
-3 - digitar no terminal "php artisan migrate"
+<p>
+    1 - digitar no terminal "composer install" (sem aspas)
+</p>
+<p>
+    2 - digitar no terminal "cp .env.example .env" e "php artisan key:generate" (sem aspas)
+</p>
+<p>
+    3 - digitar no terminal "php artisan migrate" (sem aspas)
+</p>
